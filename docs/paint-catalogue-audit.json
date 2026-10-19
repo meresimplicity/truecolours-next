@@ -1,0 +1,616 @@
+{
+  "checkedAt": "2026-10-15",
+  "scope": "Structural audit of all stored records plus manufacturer-source regional expansion. This does not independently certify every legacy code, model-year fitment or digital swatch.",
+  "generalCatalogue": {
+    "records": 8501,
+    "brands": 22,
+    "noDocumentedSalesCountry": 8501,
+    "selfReferencingCatalogueSource": 8471,
+    "collidingIds": [
+      {
+        "id": "paint-chery-tiggo-4-pro-CH-2021",
+        "records": 4,
+        "names": [
+          "Khaki White",
+          "Carbon Black",
+          "Quantum Grey",
+          "Bloodstone Red"
+        ]
+      },
+      {
+        "id": "paint-honda-civic-NH-2006",
+        "records": 2,
+        "names": [
+          "Taffeta White",
+          "Crystal Black Pearl"
+        ]
+      },
+      {
+        "id": "paint-honda-civic-NH-2016",
+        "records": 2,
+        "names": [
+          "Lunar Silver Metallic",
+          "Modern Steel Metallic"
+        ]
+      },
+      {
+        "id": "paint-honda-cr-v-NH-2007",
+        "records": 2,
+        "names": [
+          "Taffeta White",
+          "Crystal Black Pearl"
+        ]
+      },
+      {
+        "id": "paint-honda-cr-v-NH-2017",
+        "records": 2,
+        "names": [
+          "Lunar Silver Metallic",
+          "Platinum White Pearl"
+        ]
+      },
+      {
+        "id": "paint-chery-tiggo-7-pro-CH-2022",
+        "records": 3,
+        "names": [
+          "Khaki White",
+          "Carbon Black",
+          "Quantum Grey"
+        ]
+      },
+      {
+        "id": "paint-chery-tiggo-8-pro-CH-2022",
+        "records": 3,
+        "names": [
+          "Khaki White",
+          "Carbon Black",
+          "Roland Purple / Dark Violet"
+        ]
+      },
+      {
+        "id": "paint-toyota-prius-040-2005",
+        "records": 2,
+        "names": [
+          "Glacier White / Super White II"
+        ]
+      },
+      {
+        "id": "paint-toyota-prius-070-2010",
+        "records": 2,
+        "names": [
+          "White Pearl Crystal Shine / Blizzard Pearl"
+        ]
+      },
+      {
+        "id": "paint-toyota-prius-089-2018",
+        "records": 2,
+        "names": [
+          "Platinum White Pearl / Wind Chill Pearl"
+        ]
+      },
+      {
+        "id": "paint-toyota-prius-1F7-2007",
+        "records": 2,
+        "names": [
+          "Classic Silver Metallic"
+        ]
+      },
+      {
+        "id": "paint-toyota-prius-1G3-2010",
+        "records": 2,
+        "names": [
+          "Magnetic Grey Metallic"
+        ]
+      },
+      {
+        "id": "paint-toyota-prius-1K0-2016",
+        "records": 2,
+        "names": [
+          "Metal Stream Metallic"
+        ]
+      },
+      {
+        "id": "paint-toyota-prius-1K3-2019",
+        "records": 2,
+        "names": [
+          "Celestite Grey Metallic"
+        ]
+      },
+      {
+        "id": "paint-toyota-prius-218-2012",
+        "records": 2,
+        "names": [
+          "Attitude Black Metallic / Midnight Black"
+        ]
+      },
+      {
+        "id": "paint-toyota-prius-3U5-2019",
+        "records": 2,
+        "names": [
+          "Emotional Red II / Supersonic Red"
+        ]
+      },
+      {
+        "id": "paint-toyota-prius-6X3-2019",
+        "records": 2,
+        "names": [
+          "Urban Khaki / Lunar Rock"
+        ]
+      },
+      {
+        "id": "paint-toyota-prius-8W7-2018",
+        "records": 2,
+        "names": [
+          "Blueprint / Dark Blue Mica"
+        ]
+      },
+      {
+        "id": "paint-toyota-prius-8X2-2017",
+        "records": 2,
+        "names": [
+          "Nebula Blue Metallic"
+        ]
+      },
+      {
+        "id": "paint-bmw-323i-354-1977",
+        "records": 2,
+        "names": [
+          "Titanium Silver Metallic"
+        ]
+      }
+    ],
+    "correctedHondaCodeRecords": 15,
+    "verificationClaimsWithoutEvidence": [
+      "paint-toyota-corolla-040-2007",
+      "paint-toyota-fortuner-040-2006",
+      "paint-toyota-hilux-040-2005",
+      "paint-toyota-quantum-040-2005"
+    ],
+    "conflictingSwatchReferences": [
+      {
+        "reference": "Audi|LS9R",
+        "hexValues": [
+          "#CCD1D9",
+          "#EEEEED"
+        ]
+      },
+      {
+        "reference": "Audi|LX7E",
+        "hexValues": [
+          "#888E88",
+          "#A8A7A0"
+        ]
+      },
+      {
+        "reference": "Audi|LY9B",
+        "hexValues": [
+          "#0F1012",
+          "#131313"
+        ]
+      },
+      {
+        "reference": "Audi|LZ9Y",
+        "hexValues": [
+          "#1C1D21",
+          "#151617"
+        ]
+      },
+      {
+        "reference": "Audi|LX7W",
+        "hexValues": [
+          "#9FA4A8",
+          "#BDC1C5"
+        ]
+      },
+      {
+        "reference": "Renault|676",
+        "hexValues": [
+          "#17181A",
+          "#B8BCC0"
+        ]
+      },
+      {
+        "reference": "Mazda|46G",
+        "hexValues": [
+          "#53575C",
+          "#4C5156"
+        ]
+      },
+      {
+        "reference": "Honda|NH",
+        "hexValues": [
+          "#F7F8F9",
+          "#151617",
+          "#BDC0C4",
+          "#4D5054",
+          "#F1F2EF"
+        ]
+      },
+      {
+        "reference": "Chery|CH",
+        "hexValues": [
+          "#F5F6F5",
+          "#17181A",
+          "#4F5358",
+          "#9E1B24",
+          "#3F3249"
+        ]
+      },
+      {
+        "reference": "Toyota|8X2",
+        "hexValues": [
+          "#0A437C",
+          "#1B3B6F"
+        ]
+      },
+      {
+        "reference": "Toyota|209",
+        "hexValues": [
+          "#111213",
+          "#222326"
+        ]
+      },
+      {
+        "reference": "BMW|C4E",
+        "hexValues": [
+          "#2A4F3E",
+          "#0E447E"
+        ]
+      }
+    ],
+    "distinctRuntimeIds": 8500,
+    "runtimeRecords": 8500,
+    "remainingRepeatedIds": 0
+  },
+  "regionalCatalogue": {
+    "listings": 257,
+    "palettes": 28,
+    "countries": 13,
+    "namesWithoutPublishedCodes": 66,
+    "namesWithColourFamilySearchTerms": 241,
+    "coverage": [
+      {
+        "code": "AU",
+        "name": "Australia",
+        "aliases": [
+          "australian"
+        ],
+        "colourCount": 15,
+        "sources": [
+          {
+            "sourceTitle": "Toyota Australia — GR Corolla, colour and trim guide (p. 24)",
+            "sourceUrl": "https://www.toyota.com.au/-/media/toyota/main-site/vehicle-hubs/gr-corolla/files/20250124_gto008687_gr-corolla_brochure.pdf",
+            "edition": "January 2025 brochure",
+            "brand": "Toyota",
+            "model": "GR Corolla"
+          },
+          {
+            "sourceTitle": "Toyota Australia — HiLux, colour and trim guide (p. 25)",
+            "sourceUrl": "https://cdn.mattaki.com/toyota/static-assets/vehicles/brochures/hilux_ebrochure.pdf",
+            "edition": "April 2025 brochure",
+            "brand": "Toyota",
+            "model": "HiLux"
+          }
+        ]
+      },
+      {
+        "code": "AT",
+        "name": "Austria",
+        "aliases": [
+          "austrian",
+          "osterreich"
+        ],
+        "colourCount": 10,
+        "sources": [
+          {
+            "sourceTitle": "Mazda Austria — January 2025 price list, Mazda3 paint options (p. 19)",
+            "sourceUrl": "https://media-assets.mazda.eu/raw/upload/mazdaat/globalassets/01-global/downloads/preisliste/2025/01_25_nova/mazda_gesamtpreisliste_01_2025.pdf",
+            "edition": "2025 model year",
+            "brand": "Mazda",
+            "model": "Mazda3"
+          }
+        ]
+      },
+      {
+        "code": "CA",
+        "name": "Canada",
+        "aliases": [
+          "canadian"
+        ],
+        "colourCount": 8,
+        "sources": [
+          {
+            "sourceTitle": "Toyota Canada — 2020 Corolla & Corolla Hybrid, exterior colours (p. 14)",
+            "sourceUrl": "https://media.toyota.ca/content/dam/media-toyota/general/unassigned/20145/20-corolla-brochure-en.pdf",
+            "edition": "2020 model year",
+            "brand": "Toyota",
+            "model": "Corolla"
+          }
+        ]
+      },
+      {
+        "code": "FR",
+        "name": "France",
+        "aliases": [
+          "french"
+        ],
+        "colourCount": 13,
+        "sources": [
+          {
+            "sourceTitle": "Peugeot France — 308 Berline, full paint table (p. 16)",
+            "sourceUrl": "https://www.peugeot.fr/content/dam/peugeot/france/b2c/documentation/catalogues/2402/308.pdf",
+            "edition": "1 February 2024 price list",
+            "brand": "Peugeot",
+            "model": "308 Berline"
+          },
+          {
+            "sourceTitle": "Peugeot France — 308 SW, full paint table (p. 17)",
+            "sourceUrl": "https://www.peugeot.fr/content/dam/peugeot/france/b2c/documentation/catalogues/2402/308.pdf",
+            "edition": "1 February 2024 price list",
+            "brand": "Peugeot",
+            "model": "308 SW"
+          }
+        ]
+      },
+      {
+        "code": "DE",
+        "name": "Germany",
+        "aliases": [
+          "german",
+          "deutschland"
+        ],
+        "colourCount": 50,
+        "sources": [
+          {
+            "sourceTitle": "Toyota Germany — Corolla price list, paint and trim availability (p. 18)",
+            "sourceUrl": "https://broschueren.toyota.de/de/profiles/9c59aae1a25d-toyota/editions/corolla-preisliste",
+            "edition": "September 2026 price list",
+            "brand": "Toyota",
+            "model": "Corolla"
+          },
+          {
+            "sourceTitle": "BMW Germany — M8 Coupé & Cabriolet, exterior colour availability (p. 10)",
+            "sourceUrl": "https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/new-vehicles/pricelists/preisliste-bmwm8.pdf.asset.1749107905847.pdf",
+            "edition": "July 2025 price list",
+            "brand": "BMW",
+            "model": "M8 Competition"
+          },
+          {
+            "sourceTitle": "BMW Germany — M850i Coupé & Cabriolet, exterior colour availability (p. 10)",
+            "sourceUrl": "https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/new-vehicles/pricelists/preisliste-bmwm8.pdf.asset.1749107905847.pdf",
+            "edition": "July 2025 price list",
+            "brand": "BMW",
+            "model": "M850i xDrive"
+          },
+          {
+            "sourceTitle": "Audi Germany — A5 Sportback, published colour/order references (p. 12)",
+            "sourceUrl": "https://www.audi.de/dam/nemo/models/misc/pdf/my-2024/preislisten/preisliste_a5-sportback.pdf",
+            "edition": "MY2024 price list",
+            "brand": "Audi",
+            "model": "A5 Sportback"
+          }
+        ]
+      },
+      {
+        "code": "IN",
+        "name": "India",
+        "aliases": [
+          "indian"
+        ],
+        "colourCount": 11,
+        "sources": [
+          {
+            "sourceTitle": "Toyota India — Urban Cruiser Hyryder launch, monotone and dual tone exterior colours",
+            "sourceUrl": "https://www.toyotabharat.com/news/2022/toyota-forays-into-the-coveted-b-suv-segment-in-india-with-the-urban-cruiser-hyryder.html",
+            "edition": "July 2022 launch palette",
+            "brand": "Toyota",
+            "model": "Urban Cruiser Hyryder"
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Italy",
+        "aliases": [
+          "italian",
+          "italia"
+        ],
+        "colourCount": 11,
+        "sources": [
+          {
+            "sourceTitle": "Fiat Italy — Panda / Pandina, complete named colour lists (p. 1)",
+            "sourceUrl": "https://www.fiat.it/content/dam/fiat2023/it/trimcomparison/pandina/confronta-gli-allestimenti/FIAT_Panda_Hybrid_trimcomparison.pdf",
+            "edition": "Italian trim comparison, checked October 2026",
+            "brand": "Fiat",
+            "model": "Panda / Pandina"
+          }
+        ]
+      },
+      {
+        "code": "JP",
+        "name": "Japan",
+        "aliases": [
+          "japanese"
+        ],
+        "colourCount": 5,
+        "sources": [
+          {
+            "sourceTitle": "Toyota Japan — GR Corolla body paint names and manufacturer codes",
+            "sourceUrl": "https://toyota.jp/faq/show/10124.html",
+            "edition": "Manufacturer colour FAQ, checked October 2026",
+            "brand": "Toyota",
+            "model": "GR Corolla"
+          }
+        ]
+      },
+      {
+        "code": "NL",
+        "name": "Netherlands",
+        "aliases": [
+          "dutch",
+          "holland"
+        ],
+        "colourCount": 12,
+        "sources": [
+          {
+            "sourceTitle": "Škoda Netherlands / Pon — Octavia, exterior colour/order table (p. 8)",
+            "sourceUrl": "https://s3.eu-central-1.amazonaws.com/poncenter-nl/07/prijslijst-skoda-octavia-1-juni-2025.pdf",
+            "edition": "1 June 2025 price list",
+            "brand": "Škoda",
+            "model": "Octavia"
+          }
+        ]
+      },
+      {
+        "code": "ZA",
+        "name": "South Africa",
+        "aliases": [
+          "south african"
+        ],
+        "colourCount": 10,
+        "sources": [
+          {
+            "sourceTitle": "Toyota South Africa — Corolla Cross specification sheet, colour codes (p. 2)",
+            "sourceUrl": "https://media.cdntoyota.co.za/toyotacms/attachments/cle6tays400zi0pqlifwad22u-corolla-cross-spec-sheet-2023.pdf",
+            "edition": "2023 specification sheet",
+            "brand": "Toyota",
+            "model": "Corolla Cross"
+          }
+        ]
+      },
+      {
+        "code": "UA",
+        "name": "Ukraine",
+        "aliases": [
+          "ukrainian"
+        ],
+        "colourCount": 7,
+        "sources": [
+          {
+            "sourceTitle": "Toyota Ukraine — Hilux, body colour guide (p. 1)",
+            "sourceUrl": "https://scene7.toyota.eu/is/content/toyotaeurope/toyota/nmsc/ukraine/brochures/toyota-hilux-a5.pdf",
+            "edition": "30 January 2025 brochure",
+            "brand": "Toyota",
+            "model": "Hilux"
+          }
+        ]
+      },
+      {
+        "code": "GB",
+        "name": "United Kingdom",
+        "aliases": [
+          "uk",
+          "britain"
+        ],
+        "colourCount": 67,
+        "sources": [
+          {
+            "sourceTitle": "Toyota UK — Yaris brochure, monotone and bi-tone colour choices (pp. 14–15)",
+            "sourceUrl": "https://www.toyota.co.uk/content/dam/toyota/nmsc/united-kingdom/brochure-downloads/yaris-march.pdf",
+            "edition": "March brochure (edition undated)",
+            "brand": "Toyota",
+            "model": "Yaris"
+          },
+          {
+            "sourceTitle": "MINI UK — Cooper, all named paint options in the manufacturer guide",
+            "sourceUrl": "https://www.mini.co.uk/en_GB/home/range/colours-and-paints.html",
+            "edition": "UK colour guide, checked October 2026",
+            "brand": "MINI",
+            "model": "Cooper"
+          },
+          {
+            "sourceTitle": "MINI UK — Aceman, all named paint options in the manufacturer guide",
+            "sourceUrl": "https://www.mini.co.uk/en_GB/home/range/colours-and-paints.html",
+            "edition": "UK colour guide, checked October 2026",
+            "brand": "MINI",
+            "model": "Aceman"
+          },
+          {
+            "sourceTitle": "MINI UK — Countryman, all named paint options in the manufacturer guide",
+            "sourceUrl": "https://www.mini.co.uk/en_GB/home/range/colours-and-paints.html",
+            "edition": "UK colour guide, checked October 2026",
+            "brand": "MINI",
+            "model": "Countryman"
+          },
+          {
+            "sourceTitle": "MINI UK — Cooper Convertible, all named paint options in the manufacturer guide",
+            "sourceUrl": "https://www.mini.co.uk/en_GB/home/range/colours-and-paints.html",
+            "edition": "UK colour guide, checked October 2026",
+            "brand": "MINI",
+            "model": "Cooper Convertible"
+          },
+          {
+            "sourceTitle": "Peugeot UK — 308 hatchback paint and order references (p. 29)",
+            "sourceUrl": "https://www.media.stellantis.com/uploads/uk/model-pricelist/peugeot308priceandspecaug2023-6502e1cc69e63.pdf",
+            "edition": "August 2023 price and specification guide",
+            "brand": "Peugeot",
+            "model": "308 Hatchback"
+          },
+          {
+            "sourceTitle": "Peugeot UK — 308 SW paint and order references (p. 30)",
+            "sourceUrl": "https://www.media.stellantis.com/uploads/uk/model-pricelist/peugeot308priceandspecaug2023-6502e1cc69e63.pdf",
+            "edition": "August 2023 price and specification guide",
+            "brand": "Peugeot",
+            "model": "308 SW"
+          }
+        ]
+      },
+      {
+        "code": "US",
+        "name": "United States",
+        "aliases": [
+          "usa",
+          "america",
+          "american",
+          "united states of america"
+        ],
+        "colourCount": 38,
+        "sources": [
+          {
+            "sourceTitle": "American Honda — 2026 HR-V, complete exterior colours and trim table",
+            "sourceUrl": "https://hondanews.com/en-US/honda-automobiles/releases/release-6f8b202ddb1c7f26ecd92774bb014b0c-2026-honda-hr-v-specifications-and-features",
+            "edition": "2026 model year",
+            "brand": "Honda",
+            "model": "HR-V"
+          },
+          {
+            "sourceTitle": "American Honda — 2026 Civic Sedan, complete exterior colours and trim table",
+            "sourceUrl": "https://hondanews.com/en-US/honda-automobiles/releases/release-395467bf3b280929feeb74845f0060f5-2026-honda-civic-sedan-specifications-features",
+            "edition": "2026 model year",
+            "brand": "Honda",
+            "model": "Civic Sedan"
+          },
+          {
+            "sourceTitle": "American Honda — 2023 Accord, complete exterior colours and trim table",
+            "sourceUrl": "https://hondanews.com/en-US/honda-automobiles/releases/release-4e58b4e0fcd795affa5685a66a387e28-2023-honda-accord-specifications-features",
+            "edition": "2023 model year",
+            "brand": "Honda",
+            "model": "Accord"
+          },
+          {
+            "sourceTitle": "Ford USA — 2025 Mustang order guide, exterior colour tables (pp. 28–30)",
+            "sourceUrl": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2025/order-guides/2025_Ford_Mustang_Order_Guide.pdf",
+            "edition": "2025 model year",
+            "brand": "Ford",
+            "model": "Mustang"
+          },
+          {
+            "sourceTitle": "Toyota USA — 2025 GR Corolla launch, grade-specific exterior colours",
+            "sourceUrl": "https://pressroom.toyota.com/ready-to-hit-the-streets-the-2025-toyota-gr-corolla-adds-new-direct-automatic-transmission-option-and-more/",
+            "edition": "2025 model year",
+            "brand": "Toyota",
+            "model": "GR Corolla"
+          }
+        ]
+      }
+    ]
+  },
+  "appliedSafeguards": [
+    "Search and pagination preserve all distinct references rather than stopping at fifty.",
+    "Different colours sharing an old identifier retain separate stable runtime identifiers and sales references.",
+    "Honda's six documented code/name pairs restore fifteen split codes without inferring sales-country or model-year evidence.",
+    "A verification badge requires a recorded verifier and valid verification date.",
+    "A regional indicative swatch is reused only when same-brand/code hex references agree.",
+    "Country searches require manufacturer-published regional evidence; absent countries and missing codes remain unconfirmed."
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-09-14T20:11:19.921Z",
+  "policy": "Union of valid records from the two supplied datasets; records are only merged when year, normalized make, and normalized model match. No paint codes were imported.",
+  "sources": {
+    "rawBySource": {
+      "openVehicle": 18086,
+      "meterApp": 209117
+    },
+    "malformed": {
+      "openVehicle": 0,
+      "meterApp": 0
+    },
+    "openVehicle": {
+      "originalRecords": 1678,
+      "makeRecords": 70,
+      "modelRecords": 1678,
+      "styleRecords": 9960,
+      "fields": [
+        "make_slug",
+        "model_slug",
+        "model_name",
+        "model_id",
+        "vehicle_type",
+        "years"
+      ]
+    },
+    "meterApp": {
+      "originalRecords": 210464,
+      "makeRecords": 1599,
+      "modelNames": 37001,
+      "fields": [
+        "year",
+        "make_id",
+        "model_id",
+        "model_name_index",
+        "vehicle_type_id",
+        "source_mask"
+      ]
+    }
+  },
+  "coverage": {
+    "canonicalRecords": 192317,
+    "uniqueMakes": 1582,
+    "uniqueModels": 40268,
+    "uniqueModelYearCombinations": 192317,
+    "uniqueVariantsStyles": 9915,
+    "earliestYear": 1981,
+    "latestYear": 2026,
+    "recordsUniqueToOpenVehicleDb": 4149,
+    "recordsUniqueToMeterApp": 173368,
+    "recordsInBoth": 14800,
+    "duplicatesRemoved": 34886
+  },
+  "retainedFields": [
+    "year",
+    "make",
+    "makeId",
+    "normalizedMake",
+    "model",
+    "modelId",
+    "normalizedModel",
+    "bodyTypes",
+    "styles",
+    "sources"
+  ],
+  "removedFromProcessedDataset": [
+    "source-specific implementation metadata",
+    "duplicate make/model strings",
+    "unneeded source columns"
+  ],
+  "limitations": [
+    "The supplied vehicle datasets do not provide OEM paint codes.",
+    "MeterApp source rows do not provide trim, style, generation, series, or submodel fields.",
+    "Country/market is retained only where directly known from a source."
+  ]
+}

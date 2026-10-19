@@ -1,0 +1,89 @@
+{
+  "name": "@meterapp/vehicle-db",
+  "version": "2.11.0",
+  "description": "Offline international database for cars, motorcycles, trucks, buses, MPVs, and more",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeterApp/vehicle-db.git"
+  },
+  "homepage": "https://github.com/MeterApp/vehicle-db#readme",
+  "bugs": {
+    "url": "https://github.com/MeterApp/vehicle-db/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./search": {
+      "types": "./dist/search.d.ts",
+      "require": "./dist/search.js",
+      "default": "./dist/search.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "typesVersions": {
+    "*": {
+      "search": [
+        "dist/search.d.ts"
+      ]
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build:db": "npm run build:data",
+    "build:data": "tsx scripts/build-db.ts",
+    "refresh:nhtsa": "tsx scripts/import-nhtsa.ts",
+    "refresh:uk-dft": "tsx scripts/import-uk-dft.ts",
+    "refresh:nzta-asia-pacific": "tsx scripts/import-nzta-asia-pacific.ts",
+    "refresh:malaysia-jpj": "tsx scripts/import-malaysia-jpj.ts",
+    "refresh:eea-co2": "tsx scripts/import-eea-co2.ts",
+    "refresh:rdw-nl": "tsx scripts/import-rdw-nl.ts",
+    "build:ts": "tsc",
+    "build": "npm run build:ts",
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.scripts.json",
+    "prepublishOnly": "npm run build",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "nhtsa",
+    "dvla",
+    "eea",
+    "rdw",
+    "vehicles",
+    "vehicle-search",
+    "autocomplete",
+    "fuzzy-search",
+    "makes",
+    "models",
+    "motorcycles",
+    "buses",
+    "asia",
+    "japan",
+    "malaysia",
+    "china",
+    "europe",
+    "netherlands",
+    "byd",
+    "international",
+    "offline"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.5",
+    "tsx": "^4.23.12",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.11"
+  }
+}

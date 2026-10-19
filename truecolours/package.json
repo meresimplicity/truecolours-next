@@ -1,0 +1,38 @@
+{
+  "name": "truecolours-find-my-colour",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Standalone starter for the TRUECOLOURS Find My Colour vehicle paint selector. Vehicle taxonomy + paint fitment kept as separate, provenance-tracked layers.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "migrate": "node --loader tsx scripts/migrate.ts",
+    "import:vehicles": "tsx scripts/import-vehicles.ts",
+    "import:paint": "tsx scripts/import-paint-provider.ts",
+    "normalize:paint": "tsx scripts/normalize-paint.ts",
+    "dedupe:paint": "tsx scripts/dedupe-paint.ts",
+    "validate:fitments": "tsx scripts/validate-fitments.ts"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/pg": "^8.11.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}

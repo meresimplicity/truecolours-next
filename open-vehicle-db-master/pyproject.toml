@@ -1,0 +1,52 @@
+[project]
+name = "open-vehicle-db"
+version = "0.1.0"
+description = "Vehicle database with makes / models / years / styles for cars, trucks, SUV's, and other vehicles."
+readme = "README.md"
+# 3.10 for dataclass slots=True and `X | None` annotations, both used throughout
+# open_vehicle_db.
+requires-python = ">=3.10"
+dependencies = [
+  # Exact versions live in uv.lock, so these are floors rather than pins.
+  "requests>=2.24.0",
+  "tqdm>=4.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+# The package lives under clients/python rather than at the root.
+packages = ["clients/python/open_vehicle_db"]
+
+[tool.uv]
+# Installed in editable mode by `uv sync`, so that scripts/ and the client share one copy
+# of the dataclasses without either one manipulating sys.path. The data files are still
+# read from the checkout, which the editable install leaves in place.
+package = true
+
+[dependency-groups]
+dev = [
+  "ruff>=0.16.0",
+]
+
+[tool.ruff]
+# Match the existing style of the codebase rather than ruff's defaults.
+line-length = 120
+indent-width = 4
+# The README's code blocks show illustrative REPL output, not real source.
+exclude = ["venv", ".venv", "*.md"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.ruff.lint]
+# pycodestyle errors, pyflakes, isort, pyupgrade, flake8-bugbear, comprehensions.
+select = ["E", "F", "I", "UP", "B", "C4"]
+
+[tool.ruff.lint.pycodestyle]
+# The formatter still wraps code at 120. This only gives the column-aligned API
+# docs table in fetch_vehicle_details a little slack, since rewrapping it would
+# destroy the alignment.
+max-line-length = 130
